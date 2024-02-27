@@ -204,9 +204,9 @@ extern NSBundle *uYouPlusBundle();
     SWITCH_ITEM(LOC(@"ENABLE_FLEX"), LOC(@"ENABLE_FLEX_DESC"), @"flex_enabled");
 
     if ([settingsViewController respondsToSelector:@selector(setSectionItems:forCategory:title:icon:titleDescription:headerHidden:)])
-        [settingsViewController setSectionItems:sectionItems forCategory:uYouPlusSection title:@"uYouPlus" icon:nil titleDescription:LOC(@"TITLE DESCRIPTION") headerHidden:YES];
+        [settingsViewController setSectionItems:sectionItems forCategory:uYouPlusSection title:@"uYouPlus (iVanced)" icon:nil titleDescription:LOC(@"TITLE DESCRIPTION") headerHidden:YES];
     else
-        [settingsViewController setSectionItems:sectionItems forCategory:uYouPlusSection title:@"uYouPlus" titleDescription:LOC(@"TITLE DESCRIPTION") headerHidden:YES];
+        [settingsViewController setSectionItems:sectionItems forCategory:uYouPlusSection title:@"uYouPlus (iVanced)" titleDescription:LOC(@"TITLE DESCRIPTION") headerHidden:YES];
 }
 
 - (void)updateSectionForCategory:(NSUInteger)category withEntry:(id)entry {
