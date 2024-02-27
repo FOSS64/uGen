@@ -54,7 +54,7 @@ extern NSBundle *uYouPlusBundle();
             return VERSION_STRING;
         }
         selectBlock:^BOOL (YTSettingsCell *cell, NSUInteger arg1) {
-            return [%c(YTUIUtils) openURL:[NSURL URLWithString:@"https://github.com/qnblackcat/uYouPlus/releases"]];
+            return [%c(YTUIUtils) openURL:[NSURL URLWithString:@"https://github.com/TherionRO/YouTubeiVanced/releases"]];
         }
     ];
     [sectionItems addObject:version];
